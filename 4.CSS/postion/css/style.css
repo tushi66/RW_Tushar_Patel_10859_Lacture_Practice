@@ -1,0 +1,62 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    padding: 20px;
+}
+
+
+.box2, .box3{
+
+    display: inline-block;
+    
+    border: 5px solid black;
+    padding-left: 10px;
+    position: sticky;
+    
+}
+
+.box2{
+
+    width: 20%;
+}
+.box3{
+    
+}
+
+h3{
+
+    top: 0;
+    z-index: 100;
+
+}
+
+.box4, .box5, .box6, .box7{
+
+  width: 220px;
+  min-height: 180px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.box3{
+
+    
+
+
+gap: 20px;
+padding: 20px;
+
+
+}

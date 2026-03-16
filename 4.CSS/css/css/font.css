@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Fradle';
+    src: url('../font/FradleScript.woff2') format('woff2'),
+        url('../font/FradleScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Varsity';
+    src: url('../font/GoldenVarsity-Regular.woff2') format('woff2'),
+        url('../font/GoldenVarsity-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Varsity Outline';
+    src: url('../font/GoldenVarsity-Outline.woff2') format('woff2'),
+        url('../font/GoldenVarsity-Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golden Varsity Script';
+    src: url('../font/GoldenVarsity-Script.woff2') format('woff2'),
+        url('../font/GoldenVarsity-Script.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,123 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.container{
+
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: turquoise;
+}
+
+.row{
+
+    
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    width: 8.33%;
+    height: 200px;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.box2{
+
+    width: 16.66%;
+    height: 200px;
+    background-color: rgb(47, 47, 141);
+    text-align: center;
+    color: white;
+}
+.box3{
+
+    width: 25%;
+    height: 200px;
+    background-color: rgb(0, 243, 150);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box4{
+
+    width: 33.33%;
+    height: 200px;
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box5{
+
+    width: 41.66%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+.box6{
+
+    width: 50%;
+    height: 200px;
+    background-color: rgb(183, 0, 255);
+    text-align: center;
+    color: white;
+}
+.box7{
+
+    width: 58.33%;
+    height: 200px;
+    background-color: rgb(7, 107, 99);
+    text-align: center;
+    color: white;
+}
+.box8{
+
+    width: 66.66%;
+    height: 200px;
+    background-color: rgb(28, 60, 129);
+    text-align: center;
+    color: white;
+}
+.box8{
+
+    width: 75%;
+    height: 200px;
+    background-color: rgb(117, 59, 54);
+    text-align: center;
+    color: white;
+}
+.box10{
+
+    width: 83.33%;
+    height: 200px;
+    background-color: rgb(23, 133, 177);
+    text-align: center;
+    color: white;
+}
+.box11{
+
+    width: 91.66%;
+    height: 200px;
+    background-color: rgb(95, 47, 83);
+    text-align: center;
+    color: white;
+}
+.box12{
+
+    width: 100%;
+    height: 200px;
+    background-color: rgb(151, 21, 21);
+    text-align: center;
+    color: white;
+}
+
+

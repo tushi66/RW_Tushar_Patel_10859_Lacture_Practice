@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="box">
+        <h1> Display:Flex</h1>
+        <p>Display: flex is a CSS property that makes an element a flex container. This means its direct child elements become flex items, which are arranged in a flexible way — either in a row or a column.</p>
+    </div>
+
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+    </div>
+
+    <br><br>
+     <div class="box">
+        <h1> Display:Flex, Flex Wrap</h1>
+        <ul>
+        <li>This is a combination of two CSS properties used together to create a flex container that allows its child elements (flex items) to wrap onto multiple lines when necessary.</li>
+        <li>The three values of flex-wrap are:
+            <ul>
+                
+                <li>No Wrap</li>
+                <li>Wrap</li>
+                <li>Wrap Reverse</li>
+            </ul>
+        </li>
+        </ul>
+        <h1> Display:Flex, Flex Wrap: no wrap</h1> 
+        <ul>
+        <li>All items stay on a single line, even if they overflow the container.</li>  
+    </ul>
+    </div>
+
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+<br><br>
+     <div class="box">
+        <h1> Display:Flex, Flex Wrap: Wrap</h1> 
+        <ul>
+        <li>Items wrap onto multiple lines when there's not enough space.</li>
+        </ul>
+    </div>
+
+    <div class="container wrap">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    <br><br>
+     <div class="box">
+        <h1> Display:Flex, Flex Wrap: Wrap Reverse</h1> 
+        <ul>
+        <li>Items wrap onto multiple lines, but in reverse order.</li>  
+        <li>Wraps from bottom to top (in row direction)</li>
+        </ul>
+    </div>
+
+    <div class="container wrap-rev">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+
+     <br><br>
+     <div class="box">
+        <h1> Display:Flex, Flex-direction </h1> 
+        <ul>
+        <li>The flex-direction CSS property defines the direction in which flex items are placed in the flex container.</li>
+        <li>It controls the main axis along which the items are laid out (either horizontally or vertically).</li>  
+        <li> flex-direction values:</li>
+            <ol><li>row Default. Items are placed left to right in a horizontal line.</li>
+            <li>row-reverse Items are placed right to left in a horizontal line.</li>
+            <li>column Items are placed top to bottom in a vertical line.</li>
+            <li>column-reverse Items are placed bottom to top in a vertical line.</li></ol>
+        </ul>
+        <h1> Display:Flex, Flex-direction: Row </h1>
+        <ul>
+            <li>Items are placed horizontally from left to right (main axis is horizontal).</li>
+        </ul> 
+    </div>
+
+    <div class="container direct-row">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+ <br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-direction: Colomn </h1>
+        <ul>
+            <li>Items are placed vertically from top to bottom.</li>
+        </ul> 
+    </div>
+
+    <div class="container direct-col wrap">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+     <br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-direction: Row Reverse </h1>
+        <ul>
+            <li>Items are placed horizontally from right to left.</li>
+            </ul> 
+    </div>
+
+    <div class="container direct-rrev wrap">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+<br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-direction: Column Reverse </h1>
+        <ul>
+            <li>Items are placed vertically from botoom to Top.</li>
+            </ul> 
+    </div>
+
+    <div class="container direct-crev wrap">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+
+
+     <br><br>
+     <div class="box">
+        <h1> Display:Flex, Flex-Flow </h1> 
+        <ul>
+            <li>flex-flow is a shorthand CSS property that combines: flex-direction & flex-wrap .</li>
+            <li>It defines both the direction of flex items and whether they should wrap onto multiple lines.</li>
+            <li> flex-flow property is a shorthand for:</li>
+            <ol>
+                <li>row wrap</li>
+                <li>row nowrap</li>
+                <li>row wrap-reverse</li>
+                <li>column wrap</li>
+                <li>column nowrap</li>
+                <li>column wrap-reverse</li>
+                
+            </ol>
+        </ul>
+        <h1> Display:Flex, Flex-Flow: Row wrap </h1>
+        <ul>
+        <li>Items go left to right. Wraps to the next line if needed (top to bottom).</li>       
+         </ul> 
+    </div>
+
+    <div class="container flow-row">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+ <br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-flow:row wrap-reverse </h1>
+        <ul>
+            <li>Items go left to right, Wraps in reverse (bottom to top).</li>
+        </ul> 
+    </div>
+
+    <div class="container flow-rrev">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+     <br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-flow: Row nowrap </h1>
+        <ul>
+            <li>Items go left to right (horizontal). No wrapping  items will overflow if they do not fit.</li>
+        </ul> 
+    </div>
+
+    <div class="container flow-no">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+<br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-direction: Column wrap </h1>
+        <ul>
+            <li>Items go top to bottom. Wraps into new columns left to right (if container is constrained).</li>
+        </ul> 
+    </div>
+
+    <div class="container flow-col">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    
+<br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-direction: Column wrap-reverse</h1>
+        <ul>
+            <li>Items go bottom to top. Wraps into new columns right to left (if container is constrained).</li>
+        </ul> 
+    </div>
+
+    <div class="container flow-crev">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+
+    
+    
+<br><br>
+     <div class="box">
+        
+        <h1> Display:Flex, Flex-direction: Column nowrap</h1>
+        <ul>
+            <li>Items go top to bottom (vertical). No wrapping  may overflow vertically.</li>
+        </ul> 
+    </div>
+
+    <div class="container flow-nocol">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+     <br><br><br><br><br><br>
+     <div class="box">
+        <h1> Display:Flex(Parent Property) Justify-content</h1> 
+        <ul>
+            <li>The justify-content property in CSS is used to align flex items along the main axis of a flex container. </li>
+
+            <li>It controls how space is distributed between and around the flex items inside a container.</li>
+        </ul>
+        <h1> Display:Flex(Parent Property) Justify-content: Flex-Start  </h1>
+        <ul>
+            <li>Items are aligned to the start of the main axis (default).</li>
+            </ul> 
+    </div>
+
+    <div class="container justify-start">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+      
+    </div>
+
+ <br><br>
+     <div class="box">
+        
+        <h1> Display:Flex(Parent Property) Justify-content: Flex-End  </h1>
+        <ul>
+            <li>Items are aligned to the end of the main axis.</li>
+        </ul> 
+    </div>
+
+    <div class="container justify-end">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        
+    </div>
+
+     <br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Justify-content: Center</h1>
+        <ul>
+            <li>Items are centered along the main axis.</li>
+
+            </ul> 
+    </div>
+
+    <div class="container justify-center wrap">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+       
+    </div>
+
+<br><br>
+     <div class="box">
+                
+        <h1>Display:Flex(Parent Property) Justify-content: space-between</h1>
+        <ul>
+            <li>Items are evenly distributed; first item is at start, last at end.</li>
+        </ul> 
+    </div>
+
+    <div class="container justify-space wrap">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1 box2" >9</div>
+        <div class="box1">10</div>
+        <div class="box1 box2">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Justify-content: space-around</h1>
+        <ul>
+           <li>Items are evenly distributed with equal space around them.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap justify-space-around">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1box2">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+
+    
+    
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Justify-content: space-evenly</h1>
+        <ul>
+            <li>Items are evenly distributed with equal space between and around all items.</li>        <ul> 
+    </div>
+
+    <div class="container wrap justify-space-evenly">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1">7</div>
+        <div class="box1">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1">13</div>
+        <div class="box1 box2">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    
+         <div class="box">
+        <h1> Display:Flex(Parent Property) Align-items</h1> 
+        <ul>
+            <li>The align-items property in CSS is used to align flex or grid items along the cross axis (perpendicular to the main axis) within a container.</li>
+            
+            <li>It determines how the items are stacked vertically (in a row layout) or horizontally (in a column layout), relative to the container.</li>
+        </ul>
+        <h1> Display:Flex(Parent Property) Align-item: Flex-Start  </h1>
+        <ul>
+            <li>Items align to the start of the cross axis.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-item-start">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1">5</div>
+        <div class="box1 box2">6</div>
+        <div class="box1">7</div>
+        <div class="box1 box2">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1 box2">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+ <br><br>
+
+     <div class="box">
+        
+        <h1> Display:Flex(Parent Property) Align-item: Flex-End  </h1>
+        <ul>
+        <li>Items align to the end of the cross axis.</li>        </ul> 
+    </div>
+
+    <div class="container align-item-end wrap">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1 box2">10</div>
+      
+    </div>
+
+     <br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Align-item: center</h1>
+        <ul>
+            <li>Items are centered along the main axis.</li>
+
+            </ul> 
+    </div>
+
+    <div class="container align-item-center">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1 box2">3</div>
+        <div class="box1">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1">10</div>
+        <div class="box1">11</div>
+        <div class="box1 box2">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+<br><br>
+     <div class="box">
+                
+        <h1>Display:Flex(Parent Property) Align-item: stretch</h1>
+        <ul>
+            <li>(Default) Items stretch to fill the container along the cross axis.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-item-strech">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box3">4</div>
+        <div class="box1 box4">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1 box2" >9</div>
+        
+    </div>
+
+    
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Align-item: baseline</h1>
+        <ul>
+            <li>Items align such that their text baselines align.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-item-basline">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1 box3">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1 box3">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1 box2">10</div>
+       
+    </div>
+
+    
+         <div class="box">
+        <h1> Display:Flex(Parent Property) Align-Content</h1> 
+        <ul>
+            <li>"Align content" refers to the distribution of space between and around content items along the cross-axis of a container (usually vertical in flexbox), when there is extra space available in the container.</li>
+
+            <li>The term "align content" typically refers to how content is positioned or arranged within a container, especially in the context of web development, design, or layout systems like CSS Flexbox or Grid.</li>
+            
+        </ul>
+        <h1> Display:Flex(Parent Property) Align-Content: flex-start   </h1>
+        <ul>
+            <li>Lines packed to the start of the container</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-content-start">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1">5</div>
+        <div class="box1 box2">6</div>
+        <div class="box1">7</div>
+        <div class="box1 box2">8</div>
+        <div class="box1">9</div>
+        <div class="box1">10</div>
+        <div class="box1 box2">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+ <br><br>
+
+     <div class="box">
+        
+        <h1> Display:Flex(Parent Property) Align-content: Flex-End  </h1>
+        <ul>
+        <li>Lines packed to the end</li>   
+         </ul> 
+    </div>
+
+    <div class="container align-content-end wrap">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1 box2">12</div>
+        <div class="box1">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+     <br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Align-Content: center<h1>
+        <ul>
+            <li>Lines packed to the center</li>
+
+            </ul> 
+    </div>
+
+    <div class="container align-content-center wrap">
+        <div class="box1">1</div>
+        <div class="box1">2</div>
+        <div class="box1 box2">3</div>
+        <div class="box1">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1">10</div>
+     
+    </div>
+
+<br><br>
+     <div class="box">
+                
+        <h1>Display:Flex(Parent Property) Align-content: stretch</h1>
+        <ul>
+                <li>Lines stretch to take up remaining space (default)</li>
+            </ul> 
+    </div>
+
+    <div class="container wrap align-content-strech">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box3">4</div>
+        <div class="box5 ">5</div>
+        
+        <div class="box1 box2">7</div>
+        <div class="box1">8</div>
+        <div class="box1 box2" >9</div>
+        
+    </div>
+
+    
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Align-content: space-between</h1>
+        <ul>
+            <li>Evenly distributed lines, first line at start, last at end</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-content-space">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1 box3">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+
+ 
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Align-content: space-around</h1>
+        <ul>
+            <li>Even distribution with space around each line</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-content-space-around">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1 box3">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Parent Property) Align-content: space-evenly</h1>
+        <ul>
+            <li>The space between all items is equal</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-content-space-evenly">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1 box3">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+     
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Child Property) Flex-Basis</h1>
+        <ul>
+            <li>A sets the starting size of a flex item before it grows or shrinks to fit the container.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap align-content-space-evenly">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1">3</div>
+        <div class="box1 box2">4</div>
+        <div class="box1 box2">5</div>
+        <div class="box1">6</div>
+        <div class="box1 box2">7</div>
+        <div class="box1 box3">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    
+
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Child Property) Flex-Grow</h1>
+        <ul>
+            <li>It controls how much bigger a flex item can get compared to others when there’s space left.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1 grow-0">3</div>
+        <div class="box1 box2">4</div>
+      
+    </div>
+
+    
+
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Child Property) Flex-Grow</h1>
+        <ul>
+            <li>It controls how much bigger a flex item can get compared to others when there’s space left.</li>
+        </ul> 
+    </div>
+
+    <div class="container wrap">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1 grow-1">3</div>
+        <div class="box1 box2">4</div>
+      
+    </div>
+
+    
+
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Child Property) Flex-shirnk</h1>
+        <ul>
+
+            <li>It controls how much smaller a flex item can become when space is tight.</li>
+        </ul> 
+    </div>
+
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box1 box2">2</div>
+        <div class="box1 shrink-0">3</div>
+        <div class="box1 box2 shrink-1">4</div>
+        <div class="box1 box2 shrink-0">5</div>
+        <div class="box1 shirnk-1">6</div>
+        <div class="box1 box2 shrink-2">7</div>
+        <div class="box1 box3 shrink-2">8</div>
+        <div class="box1 box2">9</div>
+        <div class="box1 box2">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+    
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Child Property) Order </h1>
+        <ul>
+            <li>Order tells which item comes first, second, third, etc.</li>
+
+        </ul> 
+    </div>
+
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box1 box2 order-0">2</div>
+        <div class="box1 shrink-0">3</div>
+        <div class="box1 box2 shrink-1 order-2">4</div>
+        <div class="box1 box2 shrink-0">5</div>
+        <div class="box1 shirnk-1">6</div>
+        <div class="box1 box2 shrink-2 order-1">7</div>
+        <div class="box1 box3 shrink-2">8</div>
+        <div class="box1 box2 order--1">9</div> 
+        <div class="box1 box2 order-1">10</div>
+        <div class="box1">11</div>
+        <div class="box1">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+  
+<br><br>
+     <div class="box">
+        
+        <h1>Display:Flex(Child Property) Align-Self </h1>
+        <ul>
+            <li>It controls how one item is aligned vertically (by default) inside a flex container.</li>
+
+        </ul> 
+    </div>
+
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box1 box2 order-0 align-self-start">2</div>
+        <div class="box1 shrink-0">3</div>
+        <div class="box1 box2 shrink-1 order-2">4</div>
+        <div class="box1 box2 shrink-0 align-self-end">5</div>
+        <div class="box1 shirnk-1">6</div>
+        <div class="box9 align-self-strech">7</div>
+        <div class="box1 box3 shrink-2">8</div>
+        <div class="box1 box2 order--1">9</div> 
+
+        <div class="box1 box2 order-1 align-self-center">10</div>
+        <div class="box1">11</div>
+        <div class="box1 align-self-basline">12</div>
+        <div class="box1 box2">13</div>
+        <div class="box1">14</div>
+        <div class="box1">15</div>
+    </div>
+
+
+    
+</body>
+</html>

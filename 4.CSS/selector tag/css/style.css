@@ -1,0 +1,43 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 1px solid black;
+    border-radius: 1%;
+    padding: 20px;
+    height: 300px;
+    margin: 50px;
+    background-color: rgb(225, 225, 225);
+    
+    
+}
+
+div h1{
+    text-align: center;
+    
+}
+
+div h1::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+div .box{
+
+    background-color: yellow;
+    padding-left: 10px;
+    border-left: 5px solid red;
+}
+
+div .lay{
+
+background-color: aqua;
+border: 10px solid lightskyblue;
+}
+
+.box2{
+    background-color: white;
+}

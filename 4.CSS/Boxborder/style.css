@@ -1,0 +1,53 @@
+
+.box{
+    
+    border: 10px rgb(128, 128, 255) solid;
+    
+    margin:50px auto;
+    width: 540px;
+    
+
+}
+
+.box1{
+
+    border: 10px white solid;
+    width: 400px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.box2{
+
+    background-color: gainsboro;
+    border: 10px rgb(158, 158, 255) solid;
+    width: 600px;
+    margin: auto;
+}
+
+.i1{
+    border-radius: 100%;
+    border: 5px solid green;
+    margin:  50px auto;
+    width: 250px;
+    display: block;
+}
+
+.tb{
+
+    border: 5px solid white;
+    margin: 50px auto;
+    width: 500px;
+
+
+}
+
+.i2{
+
+    border-radius: 10%;
+    width: 250px;
+}
+
+
+
+
