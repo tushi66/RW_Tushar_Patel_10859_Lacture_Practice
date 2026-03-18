@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        p{
+            font-size: 30px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .demo-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #slide{
+            font-size: 80px;
+            margin: 20px;
+            padding: 100px;
+            text-align: center;
+            opacity: 1;
+            transition:  opacity 1.5s, ease-in-out;
+            width: 100%;
+
+        }
+        .btn-row{
+            margin: 20px;
+        
+            
+        }
+        .btn{
+            margin: 30px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- sliderr selctions -->
+
+    <div>
+        <p> Live Demo</p>
+
+        <div class="demo-box">
+            <div class="slide-area" id="slide"> </div>
+            <div class="btn-row">
+                <button class="btn" id="prev">Prev</button>
+                <span class="counter" id="counter"></span>
+                <button class="btn" id="next">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="java.js">
+
+    </script>
+</body>
+
+</html>

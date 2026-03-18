@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .item{
+            padding: 25px;
+            margin: 30px;
+            background: lightblue;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        #btnall{
+            background: lightseagreen;
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        .selected{
+            background: lightcoral;
+            transform: scale(1.05);
+            transition: all 0.5s;
+            margin: 30px;
+
+        }
+
+        .btn{
+            background: lightpink;
+            padding: 10px;
+            color: white;
+            font-weight: bolder;
+            border: none;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+        #counter{
+            margin: 20px;
+            font-size: 35px;
+
+        }
+
+        #text{
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            border-radius: 20px;
+            transition: all 0.8s ease-in-out;
+        }
+
+        .btncolor{
+            margin: 10px;
+            padding: 15px 30px;
+            background: gray;
+            color: white;
+            border: none;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <h1>
+
+        Dom Methods QuarySelectorAll & AddEventListener
+
+    </h1>
+
+    <h2>
+        Click button to select all Items
+    </h2>
+
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+
+    <button id="btnall" onclick="selectallitem() ">SelelctAll</button>
+    <button id="btnall" onclick="resetallitem()">Reset All</button>
+
+
+    <hr>
+
+    
+    <h1>
+        Click Counter
+    </h1>
+    
+    <div id="counter">0
+
+    </div>
+
+    <button class="btn" id="incrementbtn">Clickme</button>
+    <button class="btn" id="resetbtn">Reset</button>
+
+    <hr>
+
+    <!-- another Example  -->
+
+    <h1 id="text">
+        Click button to change my color
+    </h1>
+
+    <button class="btncolor">red</button>
+    <button class="btncolor">blue</button>
+    <button class="btncolor">orange</button>
+
+
+    <hr>
+
+
+    
+
+    <script src="java.js">
+
+
+
+
+
+
+    
+    </script>
+</body>
+</html>
