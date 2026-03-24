@@ -1,0 +1,135 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Body */
+.quiz-wrapper {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.quiz-container {
+  width: 90%;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+/* Header */
+.quiz-header {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.quiz-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Timer */
+.timer {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  height: 6px;
+  background: rgba(255,255,255,0.3);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.quiz-progress {
+  height: 100%;
+  width: 0;
+  background: #fff;
+  transition: 0.4s;
+}
+
+/* Body */
+.quiz-body {
+  padding: 20px;
+}
+
+/* Options */
+.answer-option {
+  background: #f1f5f9;
+  border: 2px solid #e2e8f0;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.answer-option:hover {
+  background: #e0e7ff;
+}
+
+.answer-option.selected {
+  background: #667eea;
+  color: white;
+}
+
+.answer-option.correct {
+  background: #22c55e;
+  color: white;
+}
+
+.answer-option.incorrect {
+  background: #ef4444;
+  color: white;
+}
+
+/* Footer */
+.quiz-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #f9fafb;
+}
+
+/* Buttons */
+.btn-next, .btn-restart {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-next:hover, .btn-restart:hover {
+  background: #5a67d8;
+}
+
+/* Result */
+.results-container {
+  display: none;
+  text-align: center;
+  padding: 30px;
+}
+
+.results-container.active {
+  display: block;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
