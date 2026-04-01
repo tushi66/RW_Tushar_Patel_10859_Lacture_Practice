@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form onsubmit="return formvalidation()">
+            <div class="row"> 
+                <div class="col-md-6">
+
+                    <h1>General Information</h1>
+
+                    <select>
+                        <option>Title</option>
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                        <option>Miss</option>
+                    </select>
+
+                    <div class="row-flex">
+                        <input type="text" placeholder="First Name" id="firstname">
+                        <div id="firstnamerror"></div>
+                        <input type="text" placeholder="Last Name" id="Lastname">
+                        <div id="lastnameerror"></div>
+                    </div>
+
+                    <select id="Position">
+                        <option>Position</option>
+                        <option>CA</option>
+                        <option>Developer</option>
+                        <option>Website designer</option>
+                        <option>Engineer</option>
+                    </select>
+                    <div id="Positionerror"></div>
+
+                    <input type="text" placeholder="Company" id="Company">
+                    <div id="Companyerror"></div>
+
+                    <div class="row-flex">
+                        <input type="text" placeholder="Business Arena" id="Business">
+                        <div id="Businesserror"></div>
+                        <select id="Employees">
+                            <option>Employees</option>
+                            <option>CFO</option>
+                            <option>Hr</option>
+                            <option>Junior</option>
+                            <option>Senior</option>
+                        </select>
+                        <div id="Employeeserror"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h1>Contact Details</h1>
+
+                    <input type="text" placeholder="Street + Nr" id="Street">
+                    <div id="Streeterror"></div>
+                    <input type="text" placeholder="Additional Information" id="Additional">
+                    <div id="Additionalerror"></div>
+                    <div class="row-flex">
+                        <input type="text" placeholder="Zip Code" id="zipcode">
+                        <div id="Ziperror"></div>
+                        <select id="Place">
+                            <option>Place</option>
+                            <option>Surat</option>
+                            <option>Baroda</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+                        </select>
+                        <div id="Placeerror"></div>
+                    </div>
+
+                    <select id="Country">
+                        <option>Country</option>
+                        <option>US</option>
+                        <option>UK</option>
+                        <option>India</option>
+                        <option>Canada</option>
+                    </select>
+                    <div id="Countryerror"></div>
+
+                    <div class="row-flex">
+                        <input type="text" placeholder="Code +" id="code">
+                        <div id="Codeerror"></div>
+                        <input type="text" placeholder="Phone Number" id="Phone">
+                        <div id="Phoneerror"></div>
+                    </div>
+
+                    <input type="email" placeholder="Your Email" id="email">
+                    <div id="emailerror"></div>
+
+                    <div class="checkbox" id="checkbox">
+                        <input type="checkbox" id="terms">
+                        <div id="checkboxerror"></div>
+                        <label for="terms">I accept Terms & Conditions</label>
+                    </div>
+
+                    <button type="submit">Register Badge</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
