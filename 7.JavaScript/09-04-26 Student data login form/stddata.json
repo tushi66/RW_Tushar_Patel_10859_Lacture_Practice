@@ -1,0 +1,15 @@
+{
+    "student" : [
+        {
+            "id" : 1,
+           "name": "Tushar",
+           "grid": 24246,
+           "course" : "full stack devloper",
+           "age": 25,
+           "fees":25555,
+           "email": "abc@gmail.com"
+
+        }
+    ]
+}
+
