@@ -1,0 +1,23 @@
+{
+  "student": [
+    {
+      "name": "anbc",
+      "grid": "76768",
+      "course": "HTML",
+      "fees": "7865676",
+      "age": "66",
+      "email": "abc@gmail.com",
+      "id": "bCWcyZyhls0"
+    },
+    {
+      "name": "asnjhb",
+      "grid": "8787",
+      "course": "HTML",
+      "fees": "877677",
+      "age": "78",
+      "email": "abc@gmail.com",
+      "id": "9Y0WV7V5tMk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
