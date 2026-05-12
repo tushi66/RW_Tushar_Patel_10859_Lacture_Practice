@@ -1,0 +1,8 @@
+.homeimg{
+    height: 600px;
+    object-fit:cover;
+}
+
+.no-result{
+    display: none;
+}
