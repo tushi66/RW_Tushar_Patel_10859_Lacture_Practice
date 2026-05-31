@@ -1,0 +1,275 @@
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+            <link rel="stylesheet" href="style.css">
+
+        
+        </head>
+
+        <body>
+
+            <div id="hide">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore temporibus, ipsam soluta nulla
+                exercitationem sint quod? Ipsa, laborum veritatis nostrum repellat consequatur repellendus in ipsam dolore
+                quaerat asperiores iste dolorum!
+            </div>
+
+            <button id="btn1">hide</button>
+            <button id="btn2">show</button>
+            <button id="toggle">Toggle</button>
+            <button id="fadein">FadeIN </button>
+            <button id="fadeout">FadeOut </button>
+            <button id="fadetoggle">FadeToggle </button>
+            <button id="fadeto">FadeTo </button>
+
+
+            <div class="main">
+                <div id="box-1"></div>
+                <div id="box-2"></div>
+                <div id="box-3"></div>
+                <div id="box-4"></div>
+                <div id="box-5"></div>
+            </div>
+
+            <div class="main">
+
+                <div id="slide">
+                    click to slide dowm
+                </div>
+                
+                <div id="slide1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quos, hic accusantium,
+                    aliquid fugit quod non libero natus tenetur cupiditate, debitis corrupti numquam illo necessitatibus.
+                    Perspiciatis reiciendis numquam impedit.</div>
+
+            </div>
+
+            <div class="main">
+
+                <div id="animi">
+                    click the animation
+                </div>
+
+                
+                <div id="animi1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda earum asperiores saepe soluta
+                    nihil minima obcaecati eum, voluptatum, ex temporibus fugiat laborum at optio quos aperiam nam fuga
+                    possimus.
+                </div>
+
+                <div class="main">
+                    
+                    <button id="btn11">click Me text</button>
+                    <button id="btn12">click Me html</button>
+                    <button id="btn13">click Me value</button>
+
+                    <p id="get">Hello WOlrd</p>
+                    <input type="text" placeholder="name" id="get1">
+
+                </div>
+                
+                <div class="main2">
+                    
+                    <button id="btn15">click Me Set text</button>
+                    <button id="btn16">click Me Set html</button>
+                    <button id="btn17">click Me Set value</button>
+
+                    <p id="set">Hello WOlrd</p>
+                    <input type="text" placeholder="name" id="set1">
+
+                </div>
+
+                <div class="main">
+
+                    <button id="btn20" > click to add</button>
+                    <button id="btn21" > click to prepend</button>
+                    <button id="btn22" > click to after</button>
+                    <button id="btn23" > click to before</button>
+
+
+                    <p id="name">Hii !! MY name IS .... </p>
+
+                </div>
+
+                <div class="main">
+
+                    <button id="btn30" > click to remopve</button>
+                    <button id="btn31" > click to empty</button>
+                   
+                    <p id="remove">Hii !! MY name IS .... </p>
+
+                </div>
+                
+
+            </div>
+
+            <script src="jquary.js"></script>
+
+
+            <script>
+
+                $('#btn1').click(function () {
+
+                    $('#hide').hide();
+
+
+                })
+                $('#btn2').click(function () {
+
+                    $('#hide').show();
+
+
+                })
+                $('#toggle').click(function () {
+
+                    $('#hide').toggle();
+
+
+                })
+
+
+                $('#fadein').click(function () {
+
+                    $('#box-1').fadeIn()
+                    $('#box-2').fadeIn('slow')
+                    $('#box-3').fadeIn(2000)
+                    $('#box-4').fadeIn(4000)
+                    $('#box-5').fadeIn(5000)
+
+                })
+                $('#fadeout').click(function () {
+
+                    $('#box-1').fadeOut()
+                    $('#box-2').fadeOut('slow')
+                    $('#box-3').fadeOut(2000)
+                    $('#box-4').fadeOut(4000)
+                    $('#box-5').fadeOut(5000)
+
+                })
+                $('#fadetoggle').click(function () {
+
+                    $('#box-1').fadeToggle()
+                    $('#box-2').fadeToggle('slow')
+                    $('#box-3').fadeToggle(2000)
+                    $('#box-4').fadeToggle(4000)
+                    $('#box-5').fadeToggle(5000)
+
+                })
+
+                $('#fadeto').click(function () {
+
+                    $('#box-1').fadeTo(1000, 0.5)
+                    $('#box-2').fadeTo('slow', 0.6)
+                    $('#box-3').fadeTo(2000, 0.7)
+                    $('#box-4').fadeTo(4000, 0.8)
+                    $('#box-5').fadeTo(5000, 0.9)
+
+                })
+
+                $('#slide').click(function () {
+
+                    $('#slide1').slideDown(6000);
+
+                });
+
+
+                $('#animi').click(function () {
+
+                    $('#animi1').animate({
+                        left: '250px', opacity: '0.8',
+                        width: '300px'
+                    }, 6000)
+
+                });
+
+                // Get MEthod
+
+                $("#btn11").click(function(){
+
+                    $('#get').text("Welcome to the GET Method")
+                })
+
+                
+                $("#btn12").click(function(){
+
+                    $('#get').html("Welcome to the page");
+
+                })
+                $("#btn13").click(function(){
+
+                    $('#get1').val("Hii My Name is tushar ");
+
+                })
+
+                // Set MEthods
+
+                $("#btn15").click(function(){
+
+                    $('#set').text("Welcome to the Set Method")
+                })
+
+                
+                $("#btn16").click(function(){
+
+                    $('#set').html("Welcome to the Home Page");
+
+                })
+                $("#btn17").click(function(){
+
+                    $('#set1').val("Hii My Name is tushar  Patel");
+
+                })
+
+                // Add Methods
+
+                $("#btn20").click(function(){
+
+                    $('#name').append("tushar  Patel");
+
+                })
+                $("#btn21").click(function(){
+
+                    $('#name').prepend("Welcome to My Page Patel");
+
+                })
+                $("#btn22").click(function(){
+
+                    $('#name').after("You can use after method");
+
+                })
+                $("#btn23").click(function(){
+
+                    $('#name').before("We can choos before methods");
+
+                })
+
+                 // Remove method
+
+                
+                $("#btn30").click(function(){
+
+                    $('#remove').remove();
+
+                })
+                $("#btn31").click(function(){
+
+                    $('#remove').empty();
+
+                })
+
+               
+                
+
+
+                
+            
+
+            </script>
+
+        </body>
+
+        </html>
