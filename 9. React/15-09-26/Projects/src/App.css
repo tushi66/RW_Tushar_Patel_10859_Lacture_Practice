@@ -1,0 +1,12 @@
+/* // navabar  */
+
+.nav-link-custom {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+    color: #0d6efd; /* Bootstrap primary blue */
+}
+
