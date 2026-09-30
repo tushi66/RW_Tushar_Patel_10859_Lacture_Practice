@@ -1,0 +1,122 @@
+- what is Database
+
+- A database is used to stored , organaize and manage data.
+
+-Example 
+
+studentdata
+Customerdata
+Productdata
+Employeeddata
+Orderdata
+
+studentdata
+---
+
+name: rahul, 
+age : 20 ,
+course : python
+
+insted of storing thousund of record in files , we can store them in a database.
+
+- What is DBMS
+
+Database Managment Systrem
+
+A DBMS USED for :
+
+C - Creat Data
+R - Read Data 
+U - Update Data 
+D - Delete Data 
+
+Example --- 
+
+
+MySQL
+MONGODB
+PostgreSQL
+Oracle 
+SQL Server
+
+---
+
+TYpe of Database
+--
+
+1.  SQL
+2.  NoSQL
+
+SQL DATABASE 
+-----
+
+SQL Database Stored Data In TABLES
+
+id      name     age     course
+1       rahul     20      python
+
+
+# NoSQL Is a NoSQL database
+
+NoSQL database can store data as Document 
+
+MONGODB is a Nosql database
+
+
+Example ---- 
+
+{
+
+    name : "Rahul",
+    age : 20,
+    course : "WEB Designer"
+
+}
+
+
+# SQl vs No sql  Diffrents
+
+
+                        SQL                 No SQL 
+ Data stored in         TABLES              Collection                  
+ Format                 Row                 Document
+                        Column              Field
+                        Structured          Flexible    
+                        MySQL               MONGODB
+
+
+
+
+
+-- What is MONGODB
+
+MONGODB is a NoSQL Database
+
+MongoDB Stored data as Document
+
+-- What is MOngoos?
+
+- Mongoos is an ODM For MONGODB
+
+--- Object Data Modeling
+
+Mongoos Helps Node.js Comunicate with MongoDB
+
+Flow : 
+
+Node.js
+
+Mongoos
+
+MongoDB
+
+Mongoos
+
+schema
+Model 
+Validation 
+Quries
+CRUD Operation
+
+
+
