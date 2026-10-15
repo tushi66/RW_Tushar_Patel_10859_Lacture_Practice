@@ -1,0 +1,125 @@
+What is Database
+
+A Database is used to store , organize and manage data.
+
+Ecample 
+
+StudenetData
+EmployeeData 
+CoustmerData
+Productdata
+Orderdata
+
+StudenetData
+------------------
+
+Name : John
+AGe : 20 
+Course : Full Stack Devloper
+
+Insted of Storing Thuisund of records in files , we can Store them in Database
+
+What is DBMS
+
+DataBase Management System
+
+A DBMS uses for :
+
+C- Create data
+R- Read data
+U- Update Data
+D- Delete data
+
+That means is CRUD Operation 
+
+Example
+
+MYSQL
+MONGODB
+POSTFRESQL
+ORACLE
+SQL SERVER
+
+Type OF Database
+
+----------
+
+1. SQL
+2. NoSQL
+
+
+
+
+SQL Data means
+
+-----
+
+
+SQL database Store Data in Table Formate
+
+id      name        AGE         Course
+1       Tushar      25          nodejs
+2       jay         20          reactjs
+
+
+NoSQl database
+
+NoSql database can store data as Document 
+
+MongoDb is a NoSQL Database
+
+Example 
+------------------------------
+
+
+{
+    name : "Jay",
+    agw : 20, 
+    Course: "HTML"
+}
+
+
+
+# SQL vs NoSQL
+
+SQL             NoSQL
+TABLES          collection
+Row             documents
+column          Field
+Stuctured       Flexible
+MySQL           MongoDB
+
+
+
+What is MongoDB 
+
+MogoDB is NoSQL database.
+
+MongoDB store data as Document
+
+What is Mongoos?
+
+Mongoos is an ODM for MongoDB
+
+--- Objects data Modeling 
+
+
+Mongoos helps Node.js Cominication with MongoDB.
+
+
+Flow :
+
+node.js
+
+Mongoos
+
+MongoDB
+
+
+Mongoose Provides:
+
+Schema
+Model
+Validation
+Queries
+CRUD Operation
