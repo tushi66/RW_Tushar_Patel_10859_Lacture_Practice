@@ -1,0 +1,17 @@
+<div class="bg-white p-6 rounded-lg shadow mb-6">
+  <h3 class="text-xl font-bold mb-4">Add Book</h3>
+  <form id="bookForm" class="grid gap-4 md:grid-cols-2">
+    <input type="hidden" id="bookId">
+    <input id="bookTitle" type="text" placeholder="Book Title"
+      class="border border-gray-300 rounded-lg p-2.5" required>
+    <input id="bookAuthor" type="text" placeholder="Author"
+      class="border border-gray-300 rounded-lg p-2.5" required>
+    <input id="bookPrice" type="number" min="0" step="0.01" placeholder="Price"
+      class="border border-gray-300 rounded-lg p-2.5" required>
+    <input id="bookQuantity" type="number" min="0" step="1" placeholder="Quantity"
+      class="border border-gray-300 rounded-lg p-2.5" required>
+    <button type="submit" class="md:col-span-2 text-white bg-blue-700 hover:bg-blue-800 rounded-lg px-5 py-2.5">
+      Save Book
+    </button>
+  </form>
+</div>

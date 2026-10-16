@@ -1,0 +1,48 @@
+<%- include('partials/header') %>
+
+<h1 class="text-3xl font-bold mb-6">Dashboard</h1>
+
+<div class="grid gap-4 md:grid-cols-2 mb-8">
+  <div class="bg-white p-6 rounded-lg shadow">
+    <p class="text-gray-500">Total Employees</p>
+    <h2 id="employeeCount" class="text-3xl font-bold">0</h2>
+  </div>
+  <div class="bg-white p-6 rounded-lg shadow">
+    <p class="text-gray-500">Total Books</p>
+    <h2 id="bookCount" class="text-3xl font-bold">0</h2>
+  </div>
+</div>
+
+<section id="employees" class="mb-10">
+  <h2 class="text-2xl font-bold mb-4">Employee Management</h2>
+  <%- include('partials/addEmployeeForm') %>
+  <input id="employeeSearch" type="text" placeholder="Search employees..."
+    class="mb-4 block w-full md:w-1/2 p-2.5 border border-gray-300 rounded-lg">
+
+  <div class="overflow-x-auto bg-white rounded-lg shadow">
+    <table class="w-full text-sm text-left text-gray-600">
+      <thead class="bg-gray-50 text-gray-700">
+        <tr><th class="p-3">Name</th><th class="p-3">Email</th><th class="p-3">City</th><th class="p-3">Actions</th></tr>
+      </thead>
+      <tbody id="employeeRows"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="books">
+  <h2 class="text-2xl font-bold mb-4">Book Management</h2>
+  <%- include('partials/addBookForm') %>
+  <input id="bookSearch" type="text" placeholder="Search books..."
+    class="mb-4 block w-full md:w-1/2 p-2.5 border border-gray-300 rounded-lg">
+
+  <div class="overflow-x-auto bg-white rounded-lg shadow">
+    <table class="w-full text-sm text-left text-gray-600">
+      <thead class="bg-gray-50 text-gray-700">
+        <tr><th class="p-3">Title</th><th class="p-3">Author</th><th class="p-3">Price</th><th class="p-3">Quantity</th><th class="p-3">Actions</th></tr>
+      </thead>
+      <tbody id="bookRows"></tbody>
+    </table>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
